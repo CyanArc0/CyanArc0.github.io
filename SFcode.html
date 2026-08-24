@@ -147,7 +147,7 @@
             margin-bottom: 1rem;
         }
 
-        .level-number {
+        .level-name {
             font-family: 'JetBrains Mono', monospace;
             font-size: 1.1rem;
             font-weight: 700;
@@ -156,6 +156,7 @@
             padding: 0.25rem 0.6rem;
             border-radius: 6px;
             border: 1px solid rgba(255, 255, 255, 0.05);
+            flex-shrink: 0;
         }
 
         .time-badge {
@@ -315,7 +316,7 @@
                 card.innerHTML = `
                     <div class="card-header">
                         <div class="level-badge">
-                            <span class="level-number">${item.name}</span>
+                            <span class="level-name">${item.name}</span>
                         </div>
                         <div class="time-badge">${item.time}</div>
                     </div>
