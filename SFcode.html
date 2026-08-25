@@ -99,7 +99,7 @@
         /* 卡片网格 */
         .grid-container {
             display: grid;
-            grid-template-columns: repeat(1/*auto-fill*/, minmax(320px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
             gap: 1.25rem;
         }
 
@@ -173,6 +173,7 @@
             align-items: center;
             gap: 0.3rem;
             max-width: 50%;
+            text-align: right;
         }
 
         .time-badge::after {
